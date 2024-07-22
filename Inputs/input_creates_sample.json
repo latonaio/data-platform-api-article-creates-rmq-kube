@@ -1,0 +1,114 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 1001,
+	"service_label": "ARTICLE",
+	"api_type": "creates",
+	"Article": {
+		"Article": 1,
+		"ArticleType": "TEST",
+		"ArticleOwner": 1,
+		"ArticleOwnerBusinessPartnerRole": "SHOP",
+		"PersonResponsible": "TEST",
+		"ValidityStartDate": "2024-04-01",
+		"ValidityStartTime": "14:00:00",
+		"ValidityEndDate": "2024-04-01",
+		"ValidityEndTime": "17:59:59",
+		"Description": "Test Article",
+		"LongText": "Test Article Long Text",
+		"Introduction": "Test Article Introduction",
+		"Site": 1,
+		"Shop": 1,
+		"Project": null,
+		"WBSElement": null,
+		"Tag1": "",
+		"Tag2": "",
+		"Tag3": "",
+		"Tag4": "",
+		"DistributionProfile": "TEST",
+		"QuestionnaireType": "",
+		"QuestionnaireTemplate": "",
+		"CreationDate": "",
+		"CreationTime": "",
+		"LastChangeDate": "",
+		"LastChangeTime": "",
+		"CreateUser": 401,
+		"LastChangeUser": 401,
+		"IsReleased": null,
+		"IsMarkedForDeletion": null,
+		"HeaderDoc": [
+			{
+				"DocType": "",
+				"DocVersionID": null,
+				"DocID": "",
+				"FileExtension": "",
+				"FileName": "",
+				"FilePath": "",
+				"DocIssuerBusinessPartner": null
+			}
+		],
+		"Partner": [
+			{
+				"PartnerFunction": "",
+				"BusinessPartner": null,
+				"BusinessPartnerFullName": "",
+				"BusinessPartnerName": "",
+				"Organization": "",
+				"Country": "",
+				"Language": "",
+				"Currency": "",
+				"ExternalDocumentID": "",
+				"AddressID": null,
+				"EmailAddress": ""
+			}
+		],
+		"Address": [
+			{
+				"AddressID": null,
+				"PostalCode": "",
+				"LocalSubRegion": "",
+				"LocalRegion": "",
+				"Country": "",
+				"GlobalRegion": "",
+				"District": "",
+				"TimeZone": "",
+				"StreetName": "",
+				"CityName": "",
+				"Building": "",
+				"Floor": null,
+				"Room": null,
+				"XCoordinate": null,
+				"YCoordinate": null,
+				"ZCoordinate": null,
+				"Site": 1
+			}
+		],
+		"Counter": [
+			{
+				"NumberOfLikes": null,
+				"CreationDate": "",
+				"CreationTime": "",
+				"LastChangeDate": "",
+				"LastChangeTime": ""
+			}
+		],
+		"Like": [
+			{
+				"BusinessPartner": null,
+				"Like": null,
+				"CreationDate": "",
+				"CreationTime": "",
+				"LastChangeDate": "",
+				"LastChangeTime": ""
+			}
+		]
+	},
+	"api_schema": "DPFMArticleCreates",
+	"accepter": [
+		"Header"
+	]
+}
